@@ -35,8 +35,9 @@ public class HelloWorld{
 ```java
 //如果学习过es6语法，看到class就会知道这是在声明一个类，Java语言同样是这个意思
 //（类的概念前端可能是借鉴Java的）
+//类名必须与文件名完全一样
 public class HelloWorld{ 
-  //在类中声明主方法，每个类必须要有主方法，固定格式写法。
+  //在类中声明主方法，每个类必须要有主方法，固定格式写法。这一行就是程序执行的起点。
     public static void main(String[] args){
       //使用System类的打印方法，输出字符串
         System.out.println("HelloWorld!");
@@ -45,5 +46,7 @@ public class HelloWorld{
 ```
 
 这里有一些概念与前端不一样。对于前端来说，打印输出我们使用的js内置的方法或者叫api(也有其他方法是window下面的方法)。在Java中没有像前端里面的顶级对象，都是内置在JDK中的工具类，``` System```就是其中一个类，我们可以使用这个下面的方法。
+
+类是Java当中所有源代码的基本单位。
 
 在Java中``` '' ```和``` "" ```是有区别的，字符串只能用``` "" ```包裹，后面会学习到的。
